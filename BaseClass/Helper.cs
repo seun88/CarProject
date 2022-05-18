@@ -90,7 +90,7 @@ namespace CarProject.BaseClass
         }
 
 
-        public static ClearScoreHomePage AndNavigateClearScoreHomePage()
+        public static VerygroupPAGE AndNavigateClearScoreHomePage()
         {
             LaunchUrl("https://app.clearscore.com/login");
             return new ClearScoreHomePage();
